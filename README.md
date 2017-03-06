@@ -5,4 +5,5 @@ Adapted from : https://github.com/android/platform_development/tree/master/sampl
 
 Watch Android native demo: https://www.youtube.com/watch?v=9XbKMUtVnJA
 
-[Imgur](http://i.imgur.com/NDdWh7V.gifv)
+
+![Demo](http://i.imgur.com/NDdWh7V.gifv "Demo")
