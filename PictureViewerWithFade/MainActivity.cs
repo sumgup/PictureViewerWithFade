@@ -38,8 +38,8 @@ namespace PictureViewerWithFade
 			prevImageView = (ImageView)FindViewById(Resource.Id.prevImageView);
 			nextImageView = (ImageView)FindViewById(Resource.Id.nextImageView);
 
-			prevImageView.Animate().SetDuration(300);
-			prevImageView.Animate().SetDuration(300);
+			prevImageView.Animate().SetDuration(200);
+			prevImageView.Animate().SetDuration(200);
 
 			var drawables = new BitmapDrawable[drawableIDs.Length];
 
@@ -52,7 +52,7 @@ namespace PictureViewerWithFade
 			prevImageView.SetImageDrawable(drawables[0]);
 			nextImageView.SetImageDrawable(drawables[1]);
 
-			timer = new Timer(x => UpdateView(drawables), null, TimeSpan.FromSeconds(3), TimeSpan.FromSeconds(3));
+			timer = new Timer(x => UpdateView(drawables), null, TimeSpan.FromSeconds(1), TimeSpan.FromSeconds(1));
 		}
 
 		private void UpdateView(BitmapDrawable[] drawables)
